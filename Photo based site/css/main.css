@@ -1,0 +1,231 @@
+body{
+    background-color: rgb(255, 177, 188);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Oleo Script";
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(255, 90, 90);
+    color: rgb(206, 0, 62);
+    background: linear-gradient(to right, rgba(29, 0, 46, 0), rgb(0, 224, 194)), rgb(156, 207, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+h2{
+    text-align: center;
+    display:inline-block;
+    font-size: 30px;
+    font-family: "Oleo Script";
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(255, 56, 56);
+    background: rgb(238, 195, 255);
+    color: rgb(16, 0, 105);
+    border-radius: 10px;
+    padding: 5px;
+}
+.center-container {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #a560ff;
+    width: auto;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color:rgb(255, 177, 188);
+    color: rgb(255, 220, 233);
+    border: 2px solid #a560ff;
+}
+footer, .footer p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ff3460;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 20px;
+    position:relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#more-digital-artS{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(255, 56, 56);
+    background: rgb(182, 228, 255);
+    color: rgb(16, 0, 105);
+    border-radius: 10px;
+    padding: 5px;
+    overflow: auto;
+
+}
+
+#more-digital-art::after {
+    content: "";
+    display: block;
+
+}
+#more-traditional-art{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(255, 56, 56);
+    background: rgb(148, 255, 232);
+    color: rgb(16, 0, 105);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+#digital-art {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(227, 202, 255);
+    background-color: rgb(227, 202, 255);
+    padding: 20px;
+}
+#more-paintings ::after{
+    content: "";
+    display: block;
+    clear: both;    
+    padding: 5px;
+
+}
+
+#more-paintings{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(255, 56, 56);
+    background: rgb(254, 212, 255);
+    color: rgb(16, 0, 105);
+    padding: 5px;
+
+
+}
+#mcc-flier-art{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(255, 56, 56);
+    background: rgb(182, 228, 255);
+    color: rgb(16, 0, 105);
+    padding: 5px;
+
+}
+#more-graphic-art{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(255, 56, 56);
+    background: rgb(237, 210, 255);
+    color: rgb(16, 0, 105);
+    padding: 5px;
+}
+p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 65%;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(255, 77, 104);
+    background: rgb(255, 253, 254);
+    border-radius: 10px;
+    box-sizing:border-box;
+    margin: 2rem auto;
+    padding: 5px;
+   }
+   .centered-paragraph{
+    margin: auto;
+   }
+
+   img {
+max-width: 100%;
+ float:none;
+ height: auto;
+ border-style: solid;
+ border-radius: 10px;
+ border-color: rgb(0, 68, 255);
+ overflow: auto;
+ margin: 10px;
+ padding: auto;
+}
+img:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+   
+   .left-img {
+    float: left;
+    width: 475px;
+    margin-right: 20px;
+    display: block;
+}
+.center-img {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+
+.right-img{
+    float: right;
+    width: 465px;
+    margin-left: 20px;
+    display: block;
+    
+}
+
+figcaption{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 65%;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(255, 77, 104);
+    background: rgb(255, 253, 254);
+    border-radius: 10px;
+    box-sizing:border-box;
+    margin: 2rem auto;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+
+
+footer, .footer p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ff7291;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 20px;
+    position:relative;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    clear: both;
+}
